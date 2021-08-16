@@ -1,0 +1,19 @@
+{
+  "name": "concesionario",
+  "version": "1.0.0",
+  "description": "app para concesionaria de DH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonel30/concesionario.git"
+  },
+  "author": "Leonel Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonel30/concesionario/issues"
+  },
+  "homepage": "https://github.com/Leonel30/concesionario#readme"
+}
