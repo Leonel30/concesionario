@@ -1,14 +1,15 @@
-let lista =  require('./autos') ;
+const  autos = require('./autos')
 
-
-
-function buscar(solicitud , lista){
-    for(let i = 0 ; i < lista.length; i++){
-        if(lista[auto].patente === solicitud){
-            console.log(lista[auto].patente);
+const concesionaria = {
+    autos: autos,
+    buscarAuto: function(solicitud){
+       for(let i =0 ; i < autos.length; i++){
+            if( autos[i].patente === solicitud){
+                return autos[i];
+            }else{
+                return null;
+            }
         }
-    }
-}
-console.log(buscar("APL-123"),lista);
-
-
+    },
+    venderAuto:function(){}
+};
